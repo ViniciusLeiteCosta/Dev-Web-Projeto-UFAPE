@@ -12,36 +12,54 @@
 	
 		<style type="text/css">
 			
-			.container{
-				color: blue;
-			}
-
-			#head{
-				background:  blue;
+			#cabecalho{
+				background:  darkblue;
 				padding: 20px;
 				text-align: center;
+				font-style: bold;
+				color: white;
 			}
-		
-			<hr>
+
+			.menu-container ul li
+			{
+				display: inline-block;
+  				padding-right: 4px;
+			}
+
+
+			.opcaomenu
+			{
+				color: white;
+			}	
 
 		</style>
-	
-
-		<div class="container" id="head">
-			<a href="principal.html">
-				<img src="imagens/logo.png" width="150" height="150" align="center" logo.png>
-			</a>
 			
-			<br>
-			<h2 style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
-			
-			<a style=" color: white;" href="principal.html">    HOME</a>
-			<a style=" color: white;" href="contato.html">      CONTATO</a>
-			<a style=" color: white;" href="cursos.html">    	 CURSOS</a>
-			<a style=" color: white;" href="areadiscente.html"> ÁREA DO DISCENTE</a>
+		<div id="cabecalho">		
+			<div class="menu-container" align="center">
+					<a st href="principal.html">
+						<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
+					</a>
 
-			<!--<br><br>
-			<audio controls src="musica/kalimba.mp3"></audio>-->
+					<h2 style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
+
+				<ul>
+					<li class="opcaomenu">
+						<a style="color: white;" href="principal.html">HOME</a>
+					</li>
+
+					<li>
+						<a style="color: white;" href="contato.html">CONTATO</a>
+					</li>
+
+					<li>
+						<a style="color: white;" href="cursos.html">CURSOS</a>
+					</li>
+
+					<li>
+						<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
+					</li>
+				</ul>
+			</div>	
 		</div>
 
 	</head>
