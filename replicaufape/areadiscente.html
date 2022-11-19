@@ -5,76 +5,122 @@
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<!-- ícone ufape no título -->
-    <link rel = "icon" href = "http://ufape.edu.br/sites/default/files/logo.png" type = "logofaculdade">
+	<link rel = "icon" href = "http://ufape.edu.br/sites/default/files/logo.png" type = "logofaculdade">
 	
 	<title>UFAPE | DISCENTE</title>
 
-		<style type="text/css">
-			
-			#cabecalho{
-				background:  darkblue;
-				padding: 20px;
-				text-align: center;
-				font-style: bold;
-				color: white;
-			}
-
-			.menu-container ul li
-			{
-				display: inline-block;
-  				padding-right: 4px;
-			}
-
-			.opcaomenu
-			{
-				color: white;
-			}	
-
-		</style>
+	<style type="text/css">
 	
-		<div id="cabecalho">		
-			<div class="menu-container" align="center">
-					<a st href="principal.html">
-						<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
-					</a>
+	#cabecalho{
+		background:  darkblue;
+		padding: 20px;
+		text-align: center;
+		font-style: bold;
+		color: white;
+	}
 
-					<h2 style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
+	.menu-container ul li
+	{
+		display: inline-block;
+		padding-right: 4px;
+	}
 
-				<ul>
-					<li class="opcaomenu">
-						<a style="color: white;" href="principal.html">HOME</a>
-					</li>
+	.opcaomenu
+	{
+		color: white;
+	}	
 
-					<li>
-						<a style="color: white;" href="contato.html">CONTATO</a>
-					</li>
+	.botao {
+		border: 2px black;
+		margin: 20px 40px;
+		padding: 10px 20px;
+		border-radius: 500px;
+		background-color: blue;
+		color: white;
+		font-weight: 700;
+	}
 
-					<li>
-						<a style="color: white;" href="cursos.html">CURSOS</a>
-					</li>
+	.botao:hover {
+		cursor: pointer;
+	}
 
-					<li>
-						<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
-					</li>
-				</ul>
-			</div>	
-		</div>
+	.universidade{
+		font-family: Georgia, serif;
+		font-style: italic;
+	}
+
+	.cabecalho
+	{
+		font-family: 'Georgia', serif;
+		font-style: italic;
+	}
+
+	.inputs
+	{
+		border: 2px solid #aaa;	
+		border-radius: 4px;
+		margin: 8px 0;
+		outline: none;
+		padding: 8px;
+		box-sizing: border-box;
+		transition: .3s;
+		background-color: #f8f8f8;
+	}
+
+	.inputs:focus
+	{
+		border-color: dodgerblue;
+		box-shadow: 0 0 8px dodgerblue;
+	}
+
+</style>
+
+<div id="cabecalho">		
+	<div class="menu-container" align="center">
+		<a st href="principal.html">
+			<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
+		</a>
+
+		<h2 class="universidade" style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
+
+		<ul>
+			<li class="opcaomenu">
+				<a style="color: white;" href="principal.html">HOME</a>
+			</li>
+
+			<li>
+				<a style="color: white;" href="contato.html">CONTATO</a>
+			</li>
+
+			<li>
+				<a style="color: white;" href="cursos.html">CURSOS</a>
+			</li>
+
+			<li>
+				<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
+			</li>
+		</ul>
+	</div>	
+</div>
 </head>
 
 <body bgcolor="#e6f2ff">
+	
+	<form>
+		<br><h2 class="cabecalho">Login:</h2>
+		<label for="login"> 
+			<span>EMAIL:</span>
+			<br><input class="inputs" type="text" id="login" placeholder="Digite seu email.">
+		</label>
 		
-	<br><h3>LOGIN:</h3>
-	<label for="login"> 
-		<span>EMAIL:</span>
-		<br><input type="text" id="login" name="login">
-	</label>
-	<br>
-	<label for="senha"> 
-		<br><span>SENHA:</span>
-		<br><input type="password" id="login" name="login"><br>
-	</label>
+		<br>
+		<label for="senha"> 
+			<br><span>SENHA:</span>
+			<br><input class="inputs" type="password" id="login" placeholder="Digite sua senha."><br>
+		</label>
 
-	<br>
-	<input type="submit" name="">
+		<br>
+		<input class="botao" type="submit" name="">
+	</form>
 </body>
 </html>
