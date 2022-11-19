@@ -12,12 +12,13 @@
 	
 	<style type="text/css">
 	
-	#cabecalho{
+	#contato{
 		background:  darkblue;
 		padding: 20px;
 		text-align: center;
 		font-style: bold;
 		color: white;
+		font-family: 'Georgia', serif;
 	}
 
 	.menu-container ul li
@@ -26,12 +27,19 @@
 		padding-right: 4px;
 	}
 
-	.opcaomenu
+	.opcaomenu:hover
 	{
-		color: white;
-	}	
+		background: #3333ff;
+		text-decoration: underline;
+	}
 
-	.botao {
+	.opcaomenu:active
+	{
+		background: #3399ff;
+	}
+
+	.botao 
+	{
 		border: 2px black;
 		margin: 20px 40px;
 		padding: 10px 20px;
@@ -41,7 +49,8 @@
 		font-weight: 700;
 	}
 
-	.botao:hover {
+	.botao:hover 
+	{
 		cursor: pointer;
 	}
 
@@ -66,14 +75,9 @@
 
 	.universidade{
 		font-family: Georgia, serif;
-		font-style: italic;
+		font-style: bold;
 	}
 
-	.cabecalho
-	{
-		font-family: 'Georgia', serif;
-		font-style: italic;
-	}
 
 	.inputs
 	{
@@ -95,7 +99,7 @@
 	
 </style>
 
-<div id="cabecalho">		
+<div id="contato">		
 	<div class="menu-container" align="center">
 		<a st href="principal.html">
 			<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
@@ -108,15 +112,15 @@
 				<a style="color: white;" href="principal.html">HOME</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="contato.html">CONTATO</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="cursos.html">CURSOS</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
 			</li>
 		</ul>
@@ -144,7 +148,7 @@
 	</label>
 	
 	<br>
-	<input class="botao" type="submit" name="">
+	<input class="botao" type="submit" name="" value="Enviar">
 </form>
 </body>
 </html>

@@ -25,10 +25,16 @@
 		padding-right: 4px;
 	}
 
-	.opcaomenu
+	.opcaomenu:hover
 	{
-		color: white;
-	}	
+		background: #3333ff;
+		text-decoration: underline;
+	}
+
+	.opcaomenu:active
+	{
+		background: #3399ff;
+	}
 
 	.botao {
 		border: 2px black;
@@ -46,7 +52,7 @@
 
 	.universidade{
 		font-family: Georgia, serif;
-		font-style: italic;
+		font-style: bold;
 	}
 
 	.cabecalho
@@ -88,15 +94,15 @@
 				<a style="color: white;" href="principal.html">HOME</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="contato.html">CONTATO</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="cursos.html">CURSOS</a>
 			</li>
 
-			<li>
+			<li class="opcaomenu">
 				<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
 			</li>
 		</ul>
@@ -120,7 +126,7 @@
 		</label>
 
 		<br>
-		<input class="botao" type="submit" name="">
+		<input class="botao" type="submit" name="" value="Enviar">
 	</form>
 </body>
 </html>
