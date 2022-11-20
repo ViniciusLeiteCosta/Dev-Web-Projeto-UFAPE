@@ -12,7 +12,8 @@
 	
 	<style type="text/css">
 	
-	#contato{
+	#contato
+	{
 		background:  darkblue;
 		padding: 20px;
 		text-align: center;
@@ -36,6 +37,12 @@
 	.opcaomenu:active
 	{
 		background: #3399ff;
+	}
+
+	.cabecalho
+	{
+		font-family: 'Georgia', serif;
+		font-style: italic;
 	}
 
 	.botao 
@@ -78,7 +85,11 @@
 		font-style: bold;
 	}
 
-
+	#formulario
+	{
+		text-align: center;
+	}
+	
 	.inputs
 	{
 		border: 2px solid #aaa;	
@@ -96,39 +107,49 @@
 		border-color: dodgerblue;
 		box-shadow: 0 0 8px dodgerblue;
 	}
+
+	.rodape
+	{
+		margin-top: 200px;
+		color: white;
+		background-color: darkblue;
+		text-align: center;
+		font-style: italic;
+	}
 	
 </style>
+<body bgcolor="#e6f2ff">
+		<div id="contato">		
+			<div class="menu-container" align="center">
+				<a st href="principal.html">
+					<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
+				</a>
 
-<div id="contato">		
-	<div class="menu-container" align="center">
-		<a st href="principal.html">
-			<img align="center" src="imagens/logo.png" width="150" height="150" align="center" logo.png>
-		</a>
+				<h2 class="universidade" style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
 
-		<h2 class="universidade" style="color: white;">UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO</h2>
+				<ul>
+					<li class="opcaomenu">
+						<a style="color: white;" href="principal.html">HOME</a>
+					</li>
 
-		<ul>
-			<li class="opcaomenu">
-				<a style="color: white;" href="principal.html">HOME</a>
-			</li>
+					<li class="opcaomenu">
+						<a style="color: white;" href="contato.html">CONTATO</a>
+					</li>
 
-			<li class="opcaomenu">
-				<a style="color: white;" href="contato.html">CONTATO</a>
-			</li>
+					<li class="opcaomenu">
+						<a style="color: white;" href="cursos.html">CURSOS</a>
+					</li>
 
-			<li class="opcaomenu">
-				<a style="color: white;" href="cursos.html">CURSOS</a>
-			</li>
-
-			<li class="opcaomenu">
-				<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
-			</li>
-		</ul>
-	</div>	
-</div>
+					<li class="opcaomenu">
+						<a style="color: white;" href="areadiscente.html">ÁREA DO DISCENTE</a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+</body>
 </head>
 
-<form onsubmit="">
+<form id= "formulario">
 	<br><h2 class="cabecalho">Entre em contato:</h2>
 	<label for="email"> 
 		<span>EMAIL:</span>
@@ -149,6 +170,17 @@
 	
 	<br>
 	<input class="botao" type="submit" name="" value="Enviar">
+
+			<footer class="rodape">
+				<br>UFAPE - Universidade Federal
+				do Agreste de Pernambuco
+				<br>Avenida Bom Pastor, s/n.º
+				<br>Boa Vista - Garanhuns/PE
+				<br>CEP: 55292-278</h4>
+
+				<p class="assinatura">VINICIUS LEITE COSTA &copy;</p>
+			</footer>
+
 </form>
 </body>
 </html>
