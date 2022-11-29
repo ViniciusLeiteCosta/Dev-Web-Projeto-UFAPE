@@ -47,13 +47,33 @@
 				font-size: 22px;
 			}
 
+			*{
+			box-sizing: border-box;
+			}
+
+			.coluna
+			{
+				background-color: darkblue;
+				float: left;
+				width: 33.33%;
+			    margin-top: 50px;
+				border: 10px ridge darkblue;
+			}
+
+			.imagens::after
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+
 			.paragrafos
 			{
 				font-family: 'Time New Roman', serif;
 				font-size: 15px;
 			}
 
-			.cabecalho
+			.cabecalhos
 			{
 				font-family: 'Georgia', serif;
 				font-style: italic;
@@ -114,9 +134,9 @@
 	<body bgcolor="#e6f2ff">
 		
 				
-		<h2 class="cabecalho">Medicina Veterinária</h2>
+		<h2 class="cabecalhos">Medicina Veterinária</h2>
 
-		<h3 class="cabecalho">Apresentação</h3>
+		<h3 class="cabecalhos">Apresentação</h3>
 
 		<p class="paragrafos">
 			O Curso Bacharelado em Agronomia é oferecido pela Universidade Federal do Agreste de Pernambuco – UFAPE que foi criada a partir da lei Nº 13.651, de 11 de abril de 2018, através do desmembramento da Universidade Federal Rural de Pernambuco - UFRPE/ Unidade Acadêmica de Garanhuns - UAG; Unidade esta que foi criada no ano de 2005, por meio de programa de expansão universitária. A Universidade está localizada no Agreste Meridional de Pernambuco, dentro de uma área geograficamente formada por municípios situados nas mesorregiões do Agreste e Sertão, inseridos entre os estados de Pernambuco e de Alagoas, podendo se estender até a Bahia.
@@ -139,6 +159,20 @@
 		
 		<p class="paragrafos">O ingresso de alunos nos cursos de graduação da Universidade Federal do Agreste de Pernambuco ocorre através do Exame Nacional do Ensino Médio - ENEM - e pelo Ingresso de Processo Seletivo Extra através do edital de inscrição divulgado pela Pró- Reitoria de Ensino de Graduação - PREG.
 		</p>
+
+			<div class="imagens">
+				<div class="coluna">
+					<img src="imagens/veterinaria/veterinaria1.jpg" width="100%">
+				</div>
+
+				<div class="coluna">
+					<img src="imagens/veterinaria/veterinaria2.jpg" width="100%">
+				</div>
+
+				<div class="coluna">
+					<img src="imagens/veterinaria/veterinaria3.jpg" width="100%">
+				</div>
+			</div>
  
 			<footer class="rodape">
 				
