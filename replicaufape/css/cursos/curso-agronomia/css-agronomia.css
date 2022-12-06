@@ -19,6 +19,42 @@
   				padding-right: 4px;
 			}
 
+			a:link 
+			{
+     			text-decoration: none;
+			}
+
+			a:visited 
+			{
+			      text-decoration: none;
+			}
+
+			a:hover 
+			{
+			      text-decoration: none;
+			}
+
+			a:active 
+			{
+			      text-decoration: none;
+			}
+
+			.opcaomenu:hover
+			{
+				text-shadow: 2px 2px 2px #001aff;
+			}
+
+			.opcaomenu:active
+			{
+				text-shadow: 3px 3px 3px #5ed1ff;
+			}
+
+			.universidade
+			{
+				font-family: Georgia, serif;
+				font-style: bold;
+			}
+
 			*{
 			box-sizing: border-box;
 			}
@@ -43,25 +79,7 @@
 				display: table;
 				clear: both;
 			}
-		
-
-			.opcaomenu:hover
-			{
-				text-shadow: 2px 2px 2px #001aff;
-				text-decoration: underline;
-			}
-
-			.opcaomenu:active
-			{
-				text-shadow: 3px 3px 3px #5ed1ff;
-			}
-
-			.universidade
-			{
-				font-family: Georgia, serif;
-				font-style: bold;
-			}
-
+	
 			.paragrafos
 			{
 				font-family: 'Time New Roman', serif;
