@@ -64,11 +64,6 @@
 				font-family: 'Times New Roman', serif;
 			}
 
-			.assinatura
-			{
-				font-family: 'Brush Script MT', cursive;
-			}
-
 			.cabecalhos
 			{
 				margin-top: 30px;
@@ -87,6 +82,10 @@
 				font-family: 'Georgia', serif;
 				margin-top: 200px;
 				font-size: 14px;
+
+				/*padding:  top right bottom left*/
+				padding: 10px 10px 30px 10px; 
+
 				color: white;
 				text-align: center;
 				
