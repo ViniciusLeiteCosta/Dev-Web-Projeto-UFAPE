@@ -3,7 +3,6 @@
 				padding: 20px;
 				text-align: center;
 				font-style: bold;
-				color: white;
 				margin:  0px;
 
 				/*Fundo para header criado em svgbackgrounds.com*/
@@ -37,6 +36,16 @@
 			a:active 
 			{
 			      text-decoration: none;
+			}
+
+			.nome_universidade
+			{
+				color: white;
+			}
+
+			.opcaomenu
+			{
+				color: white;
 			}
 
 			.opcaomenu:hover

@@ -3,7 +3,6 @@
 		padding: 20px;
 		text-align: center;
 		font-style: bold;
-		color: white;
 		
 		/*Fundo para header criado em svgbackgrounds.com*/
 		background-color: #030775;
@@ -38,13 +37,18 @@
 		text-decoration: none;
 	}
 
+	.opcaomenu
+	{
+		color: white;
+	}
+
 	.opcaomenu:hover
 	{
 		text-shadow: 2px 2px 2px #001aff;
 	}
 
 	.opcaomenu:active
-	{		
+	{
 		text-shadow: 3px 3px 3px #5ed1ff;
 	}
 
@@ -53,6 +57,10 @@
 		/*Fundo criado em svgbackgrounds.com*/
 	}
 
+	.nome_universidade
+	{
+		color: white;
+	}
 
 	.universidade
 	{
