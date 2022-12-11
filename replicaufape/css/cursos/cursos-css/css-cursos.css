@@ -37,6 +37,12 @@
 		text-decoration: none;
 	}
 
+	.divisao
+	{
+		font-family: 'Times New Roman', Sans-serif;
+		padding: 25px 10px 0px;	
+	}
+
 	.opcaomenu
 	{
 		color: white;
@@ -64,26 +70,25 @@
 
 	.universidade
 	{
-		font-family: Georgia, serif;
+		font-family: 'Georgia', Sans-serif;
 		font-style: bold;
 	}
 
 	.paragrafos
 	{
-		font-family: 'Time New Roman', serif;
+		font-family: 'Time New Roman', Sans-serif;
 		font-size: 16px;
 	}
 
 	.cabecalhos
 	{
 		margin-top: 20px;
-		font-family: 'Georgia', serif;
-		font-style: italic;
+		font-family: 'Lucida Console', Sans-serif;
 	}
 
 	.rodape
 	{
-		font-family: 'Georgia', serif;
+		font-family: 'Georgia', Sans-serif;
 		margin-top: 200px;
 		font-size: 14px;
 

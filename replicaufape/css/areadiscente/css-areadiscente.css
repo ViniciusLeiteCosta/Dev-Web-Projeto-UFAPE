@@ -42,6 +42,12 @@
 		text-decoration: none;
 	}
 
+	.divisao
+	{
+		font-family: 'Times New Roman', Sans-serif;
+		padding: 25px 10px 0px;	
+	}
+
 	.opcaomenu
 	{
 		color: white;
@@ -80,14 +86,13 @@
 
 	.universidade
 	{
-		font-family: Georgia, serif;
+		font-family: 'Georgia', Sans-serif;
 		font-style: bold;
 	}
 
 	.cabecalho
 	{
-		font-family: 'Georgia', serif;
-		font-style: italic;
+		font-family: 'Lucida Console', Sans-serif;
 	}
 
 	#formulario
@@ -115,7 +120,7 @@
 
 	.rodape
 	{
-		font-family: 'Georgia', serif;
+		font-family: 'Georgia', Sans-serif;
 				margin-top: 200px;
 				font-size: 14px;
 

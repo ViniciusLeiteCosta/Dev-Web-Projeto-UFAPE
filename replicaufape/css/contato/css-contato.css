@@ -38,6 +38,11 @@
 			      text-decoration: none;
 			}
 
+			.divisao
+			{
+				padding: 25px 10px 0px;	
+			}
+
 			.nome_universidade
 			{
 				color: white;
@@ -60,8 +65,7 @@
 
 			.cabecalho
 			{
-				font-family: 'Georgia', serif;
-				font-style: italic;
+				font-family: 'Lucida Console', Sans-serif;
 			}
 
 			.botao 
@@ -106,7 +110,7 @@
 
 			.universidade
 			{
-				font-family: Georgia, serif;
+				font-family: 'Georgia', Sans-serif;
 				font-style: bold;
 			}
 
@@ -135,7 +139,7 @@
 
 			.rodape
 			{
-				font-family: 'Georgia', serif;
+				font-family: 'Georgia', Sans-serif;
 				margin-top: 200px;
 				font-size: 14px;
 

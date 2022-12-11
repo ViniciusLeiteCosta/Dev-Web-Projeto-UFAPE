@@ -24,18 +24,22 @@
 			}
 
 			a:visited {
-			      text-decoration: none;
+			     text-decoration: none;
 			}
 
 			a:hover {
-			      text-decoration: none;
+			    text-decoration: none;
 			}
 
 			a:active {
-			      text-decoration: none;
+			    text-decoration: none;
+			}
+
+			.divisao
+			{
+				padding: 25px 10px 0px;	
 			}
 	
-
 			.opcaomenu
 			{
 				color: white;
@@ -58,7 +62,7 @@
 
 			.universidade
 			{
-				font-family: Georgia, serif;
+				font-family: 'Georgia', Sans-serif;
 				font-style: bold;
 			}
 
@@ -90,7 +94,7 @@
 
 			.rodape
 			{
-				font-family: 'Georgia', serif;
+				font-family: 'Georgia', Sans-serif;
 				margin-top: 200px;
 				font-size: 14px;
 
