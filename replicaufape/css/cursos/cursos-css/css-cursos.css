@@ -10,6 +10,11 @@
 		background-size: contain;
 	}
 
+	html, body {
+		margin: 0;
+		padding: 0;
+	}
+
 	.menu-container ul li {
 		display: inline-block;
 		padding-right: 4px;

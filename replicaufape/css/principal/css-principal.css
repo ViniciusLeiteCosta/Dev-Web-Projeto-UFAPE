@@ -11,6 +11,11 @@
 				background-size: contain;
 			}
 
+			html, body {
+				margin: 0;
+				padding: 0;
+			}
+
 			a:link {
 				text-decoration: none;
 			}
