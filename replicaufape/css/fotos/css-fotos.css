@@ -71,19 +71,20 @@
 				box-sizing: border-box;
 			}
 
-			.coluna {
+			.imagem-container {
 				background-color: darkblue;
-				float: left;
-				width: 33.33%;
 				margin-top: 50px;
-				border: 15px ridge darkblue;
-				border-radius: 5px;
+				border: 15px ridge darkblue; /*Borda*/
+				border-radius: 6px; /*Quinas da borda*/
 			}
 
-			.imagens::after {
-				content: "";
-				display: table;
-				clear: both;
+			.container {
+ 				margin: auto;
+  				max-width: 1000px;
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+				grid-gap: 20px; /*Espaço dentre a grid*/
+				justify-content: center;
 			}
 
 			.rodape {
