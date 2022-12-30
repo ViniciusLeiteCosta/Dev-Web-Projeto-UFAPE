@@ -11,6 +11,7 @@
 				background-size: contain;
 			}
 
+		 	/*Resolver bordas brancas no header e footer*/
 			html, body {
 				margin: 0;
 				padding: 0;
